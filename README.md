@@ -1,6 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/10c35136-9f02-482b-8da5-5629a26f6602/deploy-status)](https://app.netlify.com/sites/formula-editor/deploys)
-<br>
-
 <p align="center">
 <img src="https://img.icons8.com/color/96/000000/back-sorting.png"/>
 </p>
@@ -23,7 +20,7 @@ Use composable code to create formulas.
 - [COMPOSABLE](#composable) 🥯 Use data code in formula moreover use formulas' code in another formula.
 - CUSTOMIZE 🥖 You can customize the formula editor's style.
 - BRACKET 🫓 Use brackets freely, `{}` `[]` `<>` `()` are supported.
-- [SUGER](#suger) 🍬 `^2` and `^0.5` are available to make the formula more clear.
+- [SUGAR](#sugar) 🍬 `^2` and `^0.5` are available to make the formula more clear.
 - TIPS 💡Now when you are typing, it will filter the data and formulas you might want to use.`New Feature for release 0.3.0 🙉`
 
 ## Usage
@@ -38,13 +35,16 @@ There are some tips:
   </br>
   _It's avalible in release `v0.4.0-beta.`_
 
-### suger
+### sugar
 
 - `^2` means square.`(someCode)^2` will be parsed as `square(someCode)`. This is my Aviator's custom function, you can change this by replaceing the template string of function _`square`_ in the file _[transformFn.ts](./src/core/transform/transformFn.ts)_
 - `^0.5` means square root.`(someCode)^0.5` will be parsed as `math.sqrt(someCode)`. This is the same with Aviator preset function.
 - Make your own `Suger` by add new transform function. Well,`PR welcome` too.
 
 ## Releases
+
+> ### `v1.0.0` 🥰🥰🥰
+#### It's stablized now.
 
 > ### `v0.4.0-beta` 🦁🦁🦁
 
