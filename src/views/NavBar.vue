@@ -55,11 +55,11 @@ const themeIcon = computed(() =>
     <div h-30px p-10px flex justify-between items-center>
       <div flex items-center wp-70>
         <a
-          icon-btn h-7 w-7 :style="{color}" i-carbon-logo-github href="https://github.com/Cheng-DX/formula-tool"
+          icon-btn h-5 w-5 :style="{color}" i-carbon-logo-github href="https://github.com/Cheng-DX/formula-tool"
           target="_blank" title="GitHub"
         />
         <div
-          icon-btn h-7 w-7 ml-1em :class="themeIcon" @click="toggleDarkMode"
+          icon-btn h-5 w-5 ml-5px :class="themeIcon" @click="toggleDarkMode"
         />
         <label for="uploadFile" position-relative>
           <button :class="buttonClass">Data</button>

@@ -20,7 +20,7 @@ const { darkMode, color, backgroundColor } = useDarkMode()
 
 <style scoped>
 .root {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 50px);
   margin-top: 50px;
 }
 .header {
